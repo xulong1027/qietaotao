@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="referrer" content="no-referrer" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>且陶陶</title>
+    <style>
+      body {
+        margin: 0;
+        height: 100vh;
+        background-color: #eee;
+      }
+      /* * {
+        border: 1px solid black;
+      } */
+      .yinying {
+        box-shadow: 3px 3px 3px rgb(214, 209, 209);
+      }
+      .flex {
+        display: flex;
+      }
+      .baise {
+        background-color: white;
+      }
+      .flex1 {
+        flex: 1;
+      }
+      .column {
+        flex-direction: column;
+      }
+      .mg8 {
+        margin: 8px;
+      }
+      .mgr8 {
+        margin-right: 6px;
+      }
+      .mgt8 {
+        margin-top: 8px;
+      }
+      .daohang {
+        padding: 10px 20px;
+        border-bottom: 1px solid rgb(165, 163, 163);
+        font-size: 16px;
+        color: #666;
+      }
+      .hongse {
+        color: red;
+      }
+      /* 媒体查询，用于设置移动端或平板端等小屏幕的特殊样式 */
+      @media (max-width: 600px) {
+        .cebian {
+          display: none; /* 当屏幕小于600px(一般手机大小)时侧边栏隐藏（不显示） */
+        }
+        .neirong {
+          flex-direction: column;
+        }
+        .shujuqu {
+          flex-direction: column;
+        }
+        .youqu {
+          margin-left: 8px;
+        }
+        .shuju {
+          margin: 0 0 8px;
+          flex: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!--头部毕业照栏-->
+    <div
+      style="max-width: 760px; margin: auto; text-align: center; padding: 10px"
+      class="yinying baise"
+    >
+      <img
+        src="https://s2.328888.xyz/2022/06/28/62ba8b0b1efbd.jpg"
+        alt="毕业鲜花照"
+        width="384"
+        height="284"
+      />
+      <p style="margin: 0px; font-size: 22px; font-family: 楷体">
+        许先生&emsp;&emsp;&emsp;翟女士
+      </p>
+      <div
+        style="margin: 2px; border-bottom: 2px solid rgb(255, 115, 40)"
+      ></div>
+    </div>
+    <div
+      style="
+        max-width: 760px;
+        margin: 0.5px auto;
+        background-color: rgb(217, 243, 243);
+        text-align: center;
+        padding: 10px;
+      "
+      class="yinying"
+    >
+      <div>
+        <p>且陶陶&ensp;乐尽天真&emsp;几时归去&ensp;做个闲人</p>
+      </div>
+    </div>
+    <!--数据区-->
+    <div
+      style="margin: auto; text-align: center; max-width: 780px"
+      class="shujuqu flex flex1"
+    >
+      <!--数据块-->
+      <div
+        style="height: auto; max-width: 380px"
+        class="shuju flex1 baise yinying"
+      >
+        <img
+          src="http://m.qpic.cn/psc?/V515HP7c4IO7kz2sR17a0Coeme4PCVLe/bqQfVz5yrrGYSXMvKr.cqTgu2rYPOFObdyEF8s3ZD1rj0zC6g95imiioubQC7Uh2jZHPHKCzNjLVTEyx7tScropM4vM*uk.dp3h3stLdBeU!/b&bo=OAQWBgAAAAABJyw!&rf=viewer_4"
+          alt="白熊前背景照"
+          width="360px"
+        />
+      </div>
+      <div style="flex-direction: column" class="baise flex flex1 yinying">
+        <div
+          style="height: auto; flex-direction: column; justify-content: center"
+          class="shuju flex flex1 baise yinying"
+        >
+          <img
+            src="http://m.qpic.cn/psc?/V515HP7c4IO7kz2sR17a0Coeme4PCVLe/bqQfVz5yrrGYSXMvKr.cqXOV6*CA7oghEwmvg99fJ1JwOssQ*LNdIsOKPv2792a3MtALtJl3GoCTTU*zsotYSdiU.Af07Iftu.u*4TJn3BI!/b&bo=ZQQyAgAAAAABF2E!&rf=viewer_4"
+            alt="泗家中散发照"
+            width="400px"
+            style="margin-right: 5px"
+          />
+        </div>
+        <div
+          style="height: auto; flex-direction: column; justify-content: center"
+          class="shuju flex flex1 baise yinying"
+        >
+          <img
+            src="http://m.qpic.cn/psc?/V515HP7c4IO7kz2sR17a0Coeme4PCVLe/bqQfVz5yrrGYSXMvKr.cqVPC2BlaYTeKo1tPReb9dRRGBNiv7MCFffrnSJGps1CImSZ3jUDF1DPrIZEM.AU505x56Fs2ASBYKQtPmRKlU*k!/mnull&bo=gAc4BAAAAAABB5s!&rf=photolist&t=5"
+            alt="浦江阳台自拍"
+            width="400px"
+            style="margin-right: 5px"
+          />
+        </div>
+      </div>
+    </div>
+    <div>
+      <div style="height: 100px" class="shuju flex1 baise mgr8 yinying">3</div>
+      <div style="height: 100px" class="shuju flex1 baise yinying">4</div>
+    </div>
+  </body>
+</html>
